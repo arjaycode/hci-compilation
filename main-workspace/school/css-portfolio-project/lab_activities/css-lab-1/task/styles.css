@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the body element */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #2b2828;
+}
+
+/* Styling for all h1 elements */
+h1 {
+    color: #f8f8f8;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Paragraph styling */
+p {
+    margin: auto 0;
+    padding: 20px;
+    color: #bababa;
+    line-height: 1.5;
+    border: 1px dashed #666;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+/* Styling a div with the class "styled-box" */
+.second-container {
+    display: flex;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+h2 {
+    color: white;
+}
+
+.styled-box {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-color: red;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+#change-border {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    background-color: #00ff80;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#change-border:hover {
+    background-color: #00ff80bb;
+    cursor: pointer;
+}
+
+/* Styling an element with the ID "unique-text" */
+#unique-text {
+    color: #000000;
+    font-weight: bold;
+    background-color: rgb(0, 255, 128);
+    padding: 2rem;
+}
+
+.first-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#change-color {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    background-color: #00ff80;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#change-color:hover {
+    background-color: #00ff80bb;
+    cursor: pointer;
+}
+
+.origin-page {
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+}
+
+hr {
+    margin: 20px 0;
+}

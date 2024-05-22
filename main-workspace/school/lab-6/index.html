@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Lab</title>
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="">
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-success-subtle navbar-white py-3">
+        <div class="container-fluid">
+          <li class="nav-item dropdown" style="list-style-type: none">
+            <a
+              class="nav-link dropdown-toggle navbar-brand"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Arjay Aranas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Back to Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="tables.html"
+                  class="nav-link"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="View tables"
+                  >Tables</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="View Charts"
+                >
+                  Charts
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#" id="bar">Bar chart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" id="line">Line chart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" id="pie">Pie chart</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="images.html"
+                  class="nav-link"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="View Images"
+                  >Images</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="contactForm.html"
+                  class="nav-link"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex me-lg-3 mb-2 mb-lg-0" role="search">
+              <div class="input-group">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-dark btn-lg d-flex align-items-center justify-content-center"
+                  type="button"
+                >
+                  <i class="bx bx-search-alt-2"></i>
+                </button>
+              </div>
+            </form>
+            <button
+              type="submit"
+              class="btn btn-outline-success"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Sign Up
+            </button>
+            <button
+              type="submit"
+              class="btn btn-success ms-md-2"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop2"
+            >
+              Log In
+            </button>
+            <button type="button" class="btn btn-success-subtle ms-md-2">
+              Notifications
+              <span class="badge text-bg-danger">4</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Alert Portion -->
+    <div
+      class="mt-5 w-25 position-absolute top-25 start-10"
+      id="liveAlertPlaceholder"
+    ></div>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto">asdf</div>
+      </div>
+    </div>
+    <!-- log in form MODAL -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Sign Up Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 form-floating">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="mt-3 mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Agree to terms and conditions</label
+                >
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="submit"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+              id="liveAlertBtn"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="staticBackdrop2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Log In Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 form-floating">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="submit"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+              id="liveAlertBtn"
+            >
+              Log In
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/chart.js/dist/chart.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

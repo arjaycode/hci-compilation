@@ -1,0 +1,33 @@
+/* Styles for the body element */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Styling for all h1 elements */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Styling a div with the class "styled-box" */
+.styled-box {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+/* Styling an element with the ID "unique-text" */
+#unique-text {
+    color: #007bff;
+    font-weight: bold;
+}

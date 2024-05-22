@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+
+                </a>
+            </li>
+            <li>
+                <a href="#start">
+                    <h2>Flexbox and Grid</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#task1">
+                    <h2>Task 1 Flexbox Experimentation</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#task2">
+                    <h2>Task 2 Grid Layout Play</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#task3">
+                    <h2>Task 3 Responsive Design</h2>
+                </a>
+            </li>
+    </nav>
+    <main>
+        <h1 id="start">Flexbox and Grid</h1>
+        <section class="task1" id="task1">
+            <h2>Flexbox Experimentation - Task 1</h2>
+            <p>Adjust justify-content and align-items in the .flex-container to
+                explore different alignments. Try using flex-direction to change the orientation of items. (30
+                points)</p>
+            <h2>justify-content: center</h2>
+            <div>
+                <section class="flex-container-1">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>justify-content: flex-start</h2>
+            <div>
+                <section class="flex-container-2">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>justify-content: flex-end</h2>
+            <div>
+                <section class="flex-container-3">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>justify-content: space-around</h2>
+            <div>
+                <section class="flex-container-4">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>justify-content: space-between</h2>
+            <div>
+                <section class="flex-container-5">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>align-items: center</h2>
+            <div>
+                <section class="flex-container-6">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>align-items: flex-start</h2>
+            <div>
+                <section class="flex-container-7">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>align-items: flex-end</h2>
+            <div>
+                <section class="flex-container-8">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>align-items: stretch</h2>
+            <div>
+                <section class="flex-container-9">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>flex-direction: column</h2>
+            <div>
+                <section class="flex-container-10">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>flex-direction: column-reverse</h2>
+            <div>
+                <section class="flex-container-11">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>flex-direction: row</h2>
+            <div>
+                <section class="flex-container-12">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+            <h2>flex-direction: row-reverse</h2>
+            <div>
+                <section class="flex-container-13">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                </section>
+            </div>
+        </section>
+        <section class="task2" id="task2">
+            <h2>Grid Layout Play - Task 2</h2>
+            <p>Modify the grid-template-columns in .grid-container to create different
+                grid patterns (e.g., two columns, four columns). Experiment with grid-template-rows for
+                custom row sizes. (30 points)</p>
+            <h2>grid-template-columns: 1fr 1fr</h2>
+            <div>
+                <section class="grid-container-1">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                </section>
+            </div>
+            <h2>grid-template-columns: 1fr 1fr 1fr</h2>
+            <div>
+                <section class="grid-container-2">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                </section>
+            </div>
+            <h2>grid-template-columns: 1fr 1fr 1fr 1fr</h2>
+            <div>
+                <section class="grid-container-3">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                </section>
+            </div>
+            <h2>grid-template-rows: 100px 100px 100px</h2>
+            <div>
+                <section class="grid-container-4">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                </section>
+            </div>
+            <h2>grid-template-rows: 100px 50px 80px </h2>
+            <div>
+                <section class="grid-container-5">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                </section>
+            </div>
+        </section>
+        <section class="task3" id="task3">
+            <h2>Responsive Design - Task 3</h2>
+            <p>Use media queries to change the Flexbox and Grid layouts on smaller
+                screens. For example, make the Flexbox items stack vertically and adjust the Grid to a single
+                column layout on screens smaller than 600px wide. (40 points)</p>
+            <div>
+                <section class="responsive-container-1">
+                    <div class="flex-item">Item 1</div>
+                    <div class="flex-item">Item 2</div>
+                    <div class="flex-item">Item 3</div>
+                    <div class="flex-item">Item 4</div>
+                    <div class="flex-item">Item 5</div>
+                </section>
+            </div>
+            <div>
+                <section class="responsive-container-2">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                </section>
+            </div>
+        </section>
+        <section class="embedded-origin">
+            <h1>Original Copy</h1>
+            <iframe src="../Origin/index.html"></iframe>
+        </section>
+    </main>
+</body>
+
+</html>

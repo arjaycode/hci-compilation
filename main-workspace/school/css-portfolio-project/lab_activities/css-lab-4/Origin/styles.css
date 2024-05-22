@@ -1,0 +1,41 @@
+:root {
+    --main-color: #007bff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hover-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #0056b3;
+}
+
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    margin-top: 20px;
+    animation: box-move 2s infinite alternate;
+}
+
+@keyframes box-move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar" id="navbar">
+                <li><a href="#about" class="logo">
+                        <p>Arjay L. Aranas</p>
+                        <p>Bachelor of Science in Information Technology</p>
+                    </a></li>
+                <li class="hide"><a href="#skills">Skills</a></li>
+                <li class="hide"><a href="#certificates">Certificates</a></li>
+                <li class="hide"><a href="#projects">Projects</a></li>
+                <li class="hide"><a href="#contact">Contact Me</a></li>
+                <li class="show menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24" viewBox="0 -960 960 960" width="24">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+            <ul class="sidebar" id="sidebar">
+                <li class="show close-button" onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24" viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li class=""><a href="#skills">Skills</a></li>
+                <li class=""><a href="#certificates">Certificates</a></li>
+                <li class=""><a href="#projects">Projects</a></li>
+                <li class=""><a href="#contact">Contact Me</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-container" id="about">
+            <div class="about">
+                <div>
+                    <img src="./img/profile.png" alt="Profile Picture" class="profile-pic">
+                </div>
+                <div>
+                    <div class="profile-description">
+                        <p>Arjay L. Aranas</p>
+                        <p>Bachelor of Science in Information Technology Student</p>
+                        <ul>
+                            <li><a href="#skills" class="nav">Skills</a></li>
+                            <li><a href="#certificates" class="nav">Certificates</a></li>
+                            <li><a href="#projects" class="nav">Projects</a></li>
+                        </ul>
+                        <ul class="social-links">
+                            <li><button id="download-cv">Download CV</button></li>
+                            <li><button id="contact-button">Contact Me</button></li>
+                            <li class="links"><a href="#"><img src="./img/github-mark-white.svg" alt=""></a><a
+                                    href="#"><img src="./img/linkedin.svg" alt=""></a></li>
+                        </ul>
+
+                        <p>"It does not matter how slowly you go as long as you do not stop." - Confucius</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills-container" id="skills">
+            <div class="title-description">
+                <p>
+                    <span>Languages</span> Programming, markup and query.
+                </p>
+            </div>
+            <div class="skill-card">
+                <div class="another-skill-container">
+                    <div class="skill-logo"></div>
+                    <div class="skill-list-container">
+                        <ul>
+                            <li>
+                                <span class="tag">Java</span>
+                                <span class="bar">
+                                    <span class="background"></span>
+                                    <span class="foreground java"></span>
+                                </span>
+                                <span class="level">Intermediate</span>
+                            </li>
+                            <li>
+                                <span class="tag">C++</span>
+                                <span class="bar">
+                                    <span class="background"></span>
+                                    <span class="foreground cpp"></span>
+                                </span>
+                                <span class="level">Intermediate</span>
+                            </li>
+
+                            <li>
+                                <span class="tag">HTML</span>
+                                <span class="bar">
+                                    <span class="background"></span>
+                                    <span class="foreground html"></span>
+                                </span>
+                                <span class="level">Intermediate</span>
+                            </li>
+                            <li>
+                                <span class="tag">CSS</span>
+                                <span class="bar">
+                                    <span class="background"></span>
+                                    <span class="foreground css"></span>
+                                </span>
+                                <span class="level">Intermediate</span>
+                            </li>
+                            <li>
+                                <span class="tag">JS</span>
+                                <span class="bar">
+                                    <span class="background"></span>
+                                    <span class="foreground javascript"></span>
+                                </span>
+                                <span class="level">Beginner</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="certificates-container" id="certificates">
+            <div class="title-description">
+                <p>
+                    <span>Certifications</span>
+                </p>
+            </div>
+            <div class="card-container radius-left">
+                <div class="flex-row">
+                    <div class="certificate">
+                        <div class="certificate-image-container">
+                            <img src="/img/computer.png" alt="Certificate-logo">
+                        </div>
+                        <div class="certificate-description">
+                            <h2 class="certificate-title">Responsive Web Design</h2>
+                            <p class="certificate-provider">FreeCodeCamp</p>
+                            <a href="https://www.freecodecamp.org/certification/arjaycode/responsive-web-design"
+                                target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <div class="certificate-image-container">
+                            <img src="/img/computer.png" alt="Certificate-logo">
+                        </div>
+                        <div class="certificate-description">
+                            <h2 class="certificate-title">Responsive Web Design</h2>
+                            <p class="certificate-provider">FreeCodeCamp</p>
+                            <a href="https://www.freecodecamp.org/certification/arjaycode/responsive-web-design"
+                                target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <div class="certificate-image-container">
+                            <img src="/img/computer.png" alt="Certificate-logo">
+                        </div>
+                        <div class="certificate-description">
+                            <h2 class="certificate-title">Responsive Web Design</h2>
+                            <p class="certificate-provider">FreeCodeCamp</p>
+                            <a href="https://www.freecodecamp.org/certification/arjaycode/responsive-web-design"
+                                target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <div class="certificate-image-container">
+                            <img src="/img/computer.png" alt="Certificate-logo">
+                        </div>
+                        <div class="certificate-description">
+                            <h2 class="certificate-title">Responsive Web Design</h2>
+                            <p class="certificate-provider">FreeCodeCamp</p>
+                            <a href="https://www.freecodecamp.org/certification/arjaycode/responsive-web-design"
+                                target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects-container" id="projects">
+            <div class="title-description">
+                <p>
+                    <span>Projects</span>
+                </p>
+            </div>
+            <div class="card-container radius-right">
+                <div class="project-list">
+                    <div class="project">
+                        <div class="project-flex">
+                            <div class="project-image-container">
+                                <img src="./img/Lab1.png" alt="Project image">
+                            </div>
+                            <div class="project-description-container">
+                                <h2>Laboratory Activity # 1</h2>
+                                <p>Gain a foundational understanding of CSS by learning to apply basic selectors,
+                                    properties, and values
+                                    for styling text, background colors, and using the box model for layout.</p>
+                                <a href="lab_activities\css-lab-1\task\index.html" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-flex">
+                            <div class="project-image-container">
+                                <img src="./img/Lab2.png" alt="Project image">
+                            </div>
+                            <div class="project-description-container">
+                                <h2>Laboratory Activity # 2</h2>
+                                <p>Master advanced CSS layout techniques using Flexbox and Grid to design responsive web
+                                    layouts that
+                                    adapt to different screen sizes.</p>
+                                <a href="lab_activities\css-lab-2\Task Output\index.html" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-flex">
+                            <div class="project-image-container">
+                                <img src="./img/Lab3.png" alt="Project image">
+                            </div>
+                            <div class="project-description-container">
+                                <h2>Laboratory Activity # 3</h2>
+                                <p>Implement responsive web design principles using CSS media queries to ensure web
+                                    pages adapt to
+                                    various device sizes and orientations.</p>
+                                <a href="lab_activities\css-lab-3\Task\responsive.html" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-flex">
+                            <div class="project-image-container">
+                                <img src="./img/Lab4.png" alt="Project image">
+                            </div>
+                            <div class="project-description-container">
+                                <h2>Laboratory Activity # 4</h2>
+                                <p>Explore advanced CSS features for enhanced interactivity and visual appeal through
+                                    the use of CSS
+                                    transitions, animations, and custom properties (variables).</p>
+                                <a href="lab_activities\css-lab-4\Task Output\enhancements.html" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-me" id="contact">
+            <div class="title-description">
+                <p>
+                    <span>Contact:</span> Feel free to contact me about anything, whether its a question or some
+                    feedback.
+                </p>
+            </div>
+            <div class="card-container radius-left">
+                <div class="container">
+                    <h2>Contact Me</h2>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

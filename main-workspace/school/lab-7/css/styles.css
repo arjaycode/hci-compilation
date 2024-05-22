@@ -1,0 +1,16 @@
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+body {
+    background: #ff00b7;
+background: linear-gradient(344deg,#ff00b7 0%, #7a00ff 80%);
+background: -webkit-linear-gradient(344deg,#ff00b7 0%, #7a00ff 80%);
+background: -moz-linear-gradient(344deg,#ff00b7 0%, #7a00ff 80%);
+}
+
+.newsletter {
+    background-color: #7a00ff;
+}

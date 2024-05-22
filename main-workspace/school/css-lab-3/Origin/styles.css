@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+    background-color: #007bff;
+}
+
+.responsive-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 600px) {
+    .responsive-nav a {
+        display: block;
+        width: 100%;
+    }
+
+    .responsive-section {
+        padding: 10px;
+    }
+}
