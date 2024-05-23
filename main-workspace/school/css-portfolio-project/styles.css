@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Inter, sans-serif;
 }
 
 html {
@@ -9,7 +10,8 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #22092C 20%, #872341 50%, #be3144) no-repeat;
+    background: linear-gradient(135deg, #22092c 20%, #872341 50%, #be3144)
+        no-repeat;
     object-fit: contain;
 }
 
@@ -39,7 +41,6 @@ body {
 
 .navbar a {
     height: 100%;
-    font-family: Inter;
     text-decoration: none;
     color: black;
 }
@@ -83,7 +84,6 @@ body {
 
 .sidebar a {
     height: 100%;
-    font-family: Inter;
     text-decoration: none;
     color: black;
 }
@@ -154,7 +154,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     height: 100%;
-    font-family: Inter;
     gap: 10px;
 }
 
@@ -229,13 +228,11 @@ body {
     width: 25px;
 }
 
-
 .profile-description button#download-cv {
     padding: 12px;
     border-radius: 6px;
     background-color: #e86aaf;
     border: none;
-    font-family: Inter;
     font-weight: 500;
     transition: background-color 0.3s ease;
 }
@@ -246,7 +243,6 @@ body {
     color: #e86aaf;
     border: 2px solid #e86aaf;
     background-color: unset;
-    font-family: Inter;
     font-weight: 500;
     transition: background-color 0.3s ease;
 }
@@ -304,7 +300,6 @@ body {
 
 .skill-logo::before {
     content: "</>";
-    font-family: Poppins;
     font-size: 2rem;
     font-weight: bold;
     line-height: 30px;
@@ -315,7 +310,6 @@ body {
 }
 
 .skill-list-container {
-    font-family: Inter;
     border: 1px dashed rgb(249, 143, 194);
     width: 500px;
     padding: 30px;
@@ -368,7 +362,6 @@ body {
 .skill-list-container li span.level {
     font-weight: 500;
     color: rgba(245, 158, 197, 0.867);
-
 }
 
 .skill-list-container li span.bar {
@@ -397,11 +390,11 @@ body {
 }
 
 .cpp {
-    width: 55%
+    width: 55%;
 }
 
 .javascript {
-    width: 35%
+    width: 35%;
 }
 
 .html {
@@ -475,20 +468,17 @@ body {
 }
 
 .certificate-description h2 {
-    font-family: Inter;
     font-weight: bold;
     font-size: 16px;
 }
 
 .certificate-description p {
-    font-family: Inter;
     font-weight: 500;
     color: rgb(99, 99, 99);
 }
 
 .certificate-description a {
     text-decoration: underline;
-    font-family: Inter;
     font-size: 15px;
     font-weight: bold;
     color: black;
@@ -540,24 +530,20 @@ body {
 
 .project-flex {
     display: flex;
-
 }
 
 .project-description-container h2 {
-    font-family: Inter;
     font-size: 1.5rem;
     font-weight: 900;
 }
 
 .project-description-container p {
-    font-family: Inter;
     font-size: 1rem;
     font-weight: 500;
 }
 
 .project-description-container a {
     text-decoration: none;
-    font-family: Inter;
     font-weight: bold;
     color: rgb(253, 1, 115);
 }
@@ -583,7 +569,6 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: Inter;
 }
 
 .form-group {

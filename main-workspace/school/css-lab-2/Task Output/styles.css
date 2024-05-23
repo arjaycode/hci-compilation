@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
 }
 
 html {
@@ -39,7 +39,7 @@ main {
     z-index: 999;
 }
 
-.navigation>ul {
+.navigation > ul {
     width: 100%;
     list-style: none;
     display: flex;
@@ -245,12 +245,10 @@ h2 {
 }
 
 .responsive-container-1 {
-
     display: flex;
     justify-content: center;
     padding: 20px;
     background-color: lightgrey;
-
 }
 
 .responsive-container-2 {
