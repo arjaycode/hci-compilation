@@ -14,10 +14,10 @@ AOS.init({
 });
 
 const sampleData = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['HTML', 'CSS', 'JS', 'JAVA', 'C++'],
   datasets: [{
-      label: 'Sample Data',
-      data: [65, 59, 80, 81, 56, 55, 40],
+      label: 'Learned Technologies',
+      data: [70, 65, 50, 80, 68,],
       backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)'],
       borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'],
       borderWidth: 1
@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderChart('bar', 1);
   renderChart('bar', 2);
   renderChart('bar', 3);
+  renderChart('bar', 4);
 });
 
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
