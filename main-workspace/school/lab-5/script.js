@@ -3,8 +3,8 @@ const sampleData = {
 
   datasets: [
     {
-      label: "Sample Data",
-      data: [65, 59, 80, 81, 56, 55],
+      label: "Monthly Contribution",
+      data: [12, 57, 84, 23, 68, 31],
       backgroundColor: "rgba(255, 99, 132, 0.2)",
       borderColor: "rgba(255, 99, 132, 1)",
       borderWidth: 1,

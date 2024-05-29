@@ -25,8 +25,8 @@ const sampleData = {
   
     datasets: [
       {
-        label: "Sample Data",
-        data: [65, 59, 80, 81, 56, 55],
+        label: "Monthly Followers",
+        data: [45, 92, 7, 64, 38, 19],
         backgroundColor: "rgba(255, 99, 132, 0.2)",
         borderColor: "rgba(255, 99, 132, 1)",
         borderWidth: 1,

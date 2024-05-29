@@ -25,8 +25,8 @@ const sampleData = {
   
     datasets: [
       {
-        label: "Sample Data",
-        data: [65, 59, 80, 81, 56, 55],
+        label: "My Monthly Saving",
+        data: [45, 3, 77, 22, 90, 61],
         backgroundColor: "rgba(255, 99, 132, 0.2)",
         borderColor: "rgba(255, 99, 132, 1)",
         borderWidth: 1,
