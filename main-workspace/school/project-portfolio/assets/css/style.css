@@ -7,7 +7,7 @@
     --color-base2: #faeed1;
     --color-brand: #607274;
     --color-brand2: #6072749d;
-    --sidebar-width: 240px;
+    --sidebar-width: 100vw;
     --font-base: "Bai Jamjuree";
 }
 
@@ -112,7 +112,7 @@ img {
 
 @media (min-width: 992px) {
     .navbar {
-        min-height: 100vh;
+        height: 75px;
         width: var(--sidebar-width);
         background: linear-gradient(
                 rgba(222, 208, 182, 0.8),
@@ -124,12 +124,13 @@ img {
     }
 
     .navbar-brand img {
-        border: 8px solid var(--color-brand);
+        border: 5px solid rgba(178, 165, 155, 0.8);
+        width: 100px;
     }
 
     /* CONTENT WRAPPER */
     #content-wrapper {
-        padding-left: var(--sidebar-width);
+        padding-left: none;
     }
 }
 
